@@ -297,6 +297,6 @@ html:not(.designer)[dir="rtl"] .sidebar{
 }
 @media(min-width:992px){
 	.sidebar {
-	transform:translateX(0%);
+	transform:translateX(0%)!important;
 }
 }
