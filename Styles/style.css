@@ -258,3 +258,28 @@ html:not(.designer) [name*="s_calendar"] {}
 html:not(.designer) [name*="s_checkbox"] {}
 
 html:not(.designer) [name*="s_link"] {}
+/* SIDEBAR */
+.sidebar {
+	transform:translateX(-100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 11rem;
+    padding: 2rem;
+    z-index: 1;
+    height: 100vh;
+    background-image: url("https://ns.namaservices.om/Style/sidebarPattern.png");
+    background-size: cover;
+    background-position: top;
+}
+.navbarBrand a{
+    width: 11rem;
+    display: block;
+    margin: auto; 
+    cursor: pointer!important;
+}
+.navbarBrand a img{
+	height:100%;
+	width:100%;
+	object-fit:contain;
+}
