@@ -295,6 +295,15 @@ html:not(.designer)[dir="rtl"] .sidebar{
 	width:100%;
 	object-fit:contain;
 }
+.sidebar .sidebar-link{
+    display: flex;
+    align-items: center;
+}
+.sidebar .sidebar-link span{
+    font-size: 1rem;
+    color: #8F8F8F;
+    transition: var(--transition);
+}
 @media(min-width:992px){
 	.sidebar {
 	transform:translateX(0%)!important;
