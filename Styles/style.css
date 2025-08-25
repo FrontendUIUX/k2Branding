@@ -6,6 +6,11 @@
     --regularFont: "";
     --transition: all .3s ease-in-out;
 }
+@font-face {
+    font-family: 'SWCC-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
+    /* Adjust the path and font format */
+}
 html:not(.designer){
     font-size:14px!important;
 }
