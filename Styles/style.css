@@ -277,13 +277,13 @@ html:not(.designer) [name*="s_link"] {}
     background-size: cover;
     background-position: top;
 }
-.navbarBrand a{
+.sidebar-logo-container a{
     width: 11rem;
     display: block;
     margin: auto; 
     cursor: pointer!important;
 }
-.navbarBrand a img{
+.sidebar-logo-container a img{
 	height:100%;
 	width:100%;
 	object-fit:contain;

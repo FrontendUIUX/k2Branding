@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const sidebar = $('<div id="sidebar" class="sidebar"></div>');
 
     // Logo
-    const logoContainer = $('<div class="navbarBrand"></div>');
+    const logoContainer = $('<div class="sidebar-logo-container"></div>');
     const logoLink = $('<a></a>').attr('href', baseUrl + "LCTS.EservicesHub.Form/");
     const logoImage = $('<img>')
         .attr('src', 'https://ns.namaservices.om/Style/logo.png')
