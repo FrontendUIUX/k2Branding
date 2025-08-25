@@ -265,17 +265,24 @@ html:not(.designer) [name*="s_checkbox"] {}
 html:not(.designer) [name*="s_link"] {}
 /* SIDEBAR */
 .sidebar {
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 11rem;
+	padding: 2rem;
+	z-index: 1;
+	height: 100vh;
+	background-image: url("https://ns.namaservices.om/Style/sidebarPattern.png");
+	background-size: cover;
+	background-position: bottom;
+	background-color: white;
+}
+html:not(.designer)[dir="ltr"] .sidebar{
 	transform:translateX(-100%);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 11rem;
-    padding: 2rem;
-    z-index: 1;
-    height: 100vh;
-    background-image: url("https://ns.namaservices.om/Style/sidebarPattern.png");
-    background-size: cover;
-    background-position: top;
+}
+html:not(.designer)[dir="rtl"] .sidebar{
+	transform:translateX(100%);
 }
 .sidebar-logo-container a{
     width: 11rem;
@@ -287,4 +294,9 @@ html:not(.designer) [name*="s_link"] {}
 	height:100%;
 	width:100%;
 	object-fit:contain;
+}
+@media(min-width:992px){
+	.sidebar {
+	transform:translateX(0%);
+}
 }
