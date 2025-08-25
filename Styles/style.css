@@ -6,7 +6,14 @@
     --regularFont: "";
     --transition: all .3s ease-in-out;
 }
-
+html:not(.designer){
+    font-size:14px!important;
+}
+html:not(.designer) body{
+    padding: 1rem;
+    font-family: var(--regularFont);
+    background-color: white;
+}
 /* MARGINS START */
 html:not(.designer) [name*="m-t1"] {
     margin-top: 1rem;
