@@ -20,7 +20,25 @@
 .tab-box-body {
 	background-color:transparent!important;
 }
-
+html:not(.designer) [name*="sectionTitle"]{
+	color:var(--black);
+	font-family:var(--regularFont);
+	position:relative;
+	overflow:visible;
+	font-size:2rem;
+}
+html:not(.designer) [name*=s_collapse] .panel-body .SourceCode-Forms-Controls-Web-Table.Grid-Layout span{
+	overflow:visible!important;
+}
+html:not(.designer) [name*="sectionTitle"]::before{
+	content:"";
+	left:-2rem;
+	top:0;
+	position:absolute;
+	background-color:var(--main-color);
+	width:.5rem;
+	height:100%;
+}
 html:not(.designer)[dir="ltr"] .Grid-Layout>.editor-cell[name="Arabic Lang langBtn"]{
 	display:flex!important;
 	align-items:center!important;
