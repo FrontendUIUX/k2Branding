@@ -304,6 +304,75 @@ html:not(.designer)[dir="rtl"] .sidebar{
     color: #8F8F8F;
     transition: var(--transition);
 }
+/*
+*/
+html:not(.designer) .worklistToolbarHeaderTextWrapper .headerTxt{
+	font-size:1.5rem;
+	font-family: var(--regularFont);
+}
+html:not(.designer) .filterContainer{
+	display: flex;
+	justify-content: space-between;
+}
+html:not(.designer) [name*="UserName"]{
+	font-family:var(--regularFont);
+}
+html:not(.designer) .filterChosen.filter{
+	display: none!important;
+}
+html:not(.designer) .quickSearch.filter .filterLabel{
+	position:relative;
+	display:none;
+}
+html:not(.designer) .quickSearch.filter::before{
+	content:"Search by:";
+	position:relative;
+	left:0;
+	width:fit-content;
+	color:#131313;
+	font-size:1rem;
+	font-family:var(--regularFont)!important;
+}
+html:not(.designer) .filterTxt{
+	width: 21rem!important;
+}
+html:not(.designer) .filterTxt .input-control-wrapper{
+	width:100%!important;
+}
+html:not(.designer) .quickSearch.filter .toolbar-button.toolbar-button-inline.style-aware.refresh{
+	position:absolute;
+	right: 0.9rem;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 3rem;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	background-color: transparent!important;
+	border: none!important;
+}
+html:not(.designer) .quickSearch.filter{
+	position:relative;
+}
+/* TABLE BRANDING START */
+html:not(.designer) .theme-entry .grid .grid-column-header-cell{
+	padding: 0;
+	width: 100%!important;
+}
+html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
+	background-color: transparent;
+	padding:1rem 0!important;
+}
+html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(even){
+	background-color:#F9F9FB!important;
+}
+html:not(.designer) .grid-body{
+	margin: 1rem!important;
+	width: calc(100% - 2rem);
+	border: 1px solid rgb(220 220 220 / 80%)!important;
+	border-radius: .7rem;
+}
+/* TABLE BRANDING END */
 @media(min-width:992px){
 	.sidebar {
 	transform:translateX(0%)!important;
