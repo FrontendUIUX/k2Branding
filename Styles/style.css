@@ -33,6 +33,71 @@ html:not(.designer)[dir="rtl"] .Grid-Layout>.editor-cell[name="English Lang lang
 	line-height: unset!important;
 	padding: 0.1rem 2.2rem;
 }
+html:not(.designer) #custom-sticky-header  .input-control.select-box.dropdown-box{
+	width: 12rem!important;
+	
+}
+html:not(.designer) [name="User NameData Label"]{
+	font-size:1rem;
+	color:var(--black);
+	line-height:unset!important;
+	height:unset!important;
+	min-height:unset!important;
+	padding:0!important;
+}
+html:not(.designer) #custom-sticky-header  .input-control.select-box.dropdown-box .input-control-m-c,
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons{
+	background-color:transparent!important;
+	border:none!important;
+	height:unset!important;
+	min-height:unset!important;
+	line-height:unset!important;
+}
+span#\32 790f934-27a3-40e6-8904-81dfb783825e,
+span#\37 9297435-28f8-a312-16cd-abc9b001de55{
+    width: fit-content;
+    padding: 0;
+}
+html[dir="ltr"] span#\37 9297435-28f8-a312-16cd-abc9b001de55{
+    margin-right:1rem;
+}
+html[dir="rtl"] span#\37 9297435-28f8-a312-16cd-abc9b001de55{
+    margin-left:1rem;
+}
+div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table{
+    display:flex;
+    align-item:center!important;
+    justify-content:flex-end;
+}
+html:not(.designer) [name="ProfileTable"]{
+	display:flex;
+	align-items:center!important;
+}
+html:not(.designer) [name*="CustomerDp"]{
+	padding:0!important;
+	height:unset!important;
+	min-height:unset!important;
+	line-height:unset!important;
+}
+div#\31 4756d3d-ed02-ec11-0620-96035132bc28_4032c4ee-e5fe-839f-5c33-0aea6b5e0031_Table{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	justify-content:flex-start;
+}
+html:not(.designer) #custom-sticky-header  .input-control.select-box.dropdown-box.watermark .styling-font{
+	font-size:.85rem;
+	padding:0!important;
+	height: unset!important;
+	min-height: unset!important;
+	line-height: unset!important;
+}
+html:not(.designer) [name="profileContainer"]{
+	border:1px solid var(--borderColor);
+	border-radius:2rem;
+	padding:.1rem 1rem;
+	width:fit-content;
+}
 html:not(.designer) .Grid-Layout>.editor-cell[name="English Lang langBtn"]{
 	display:none!important;
 }
