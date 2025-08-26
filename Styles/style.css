@@ -374,7 +374,10 @@ html:not(.designer) .select-box[name*="OBB_calendar"] *,
 	font-size:1rem!important;
 	
 }
-/* test*/
+html:not(.designer) .input-control.text-input .input-control-m-c{
+	border:none!important;
+}
+
 html:not(.designer) [name*="s_attachment"] {}
 
 html:not(.designer) [name*="s_button"] {}
