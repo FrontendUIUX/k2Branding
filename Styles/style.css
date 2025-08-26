@@ -88,6 +88,9 @@ div#\31 4756d3d-ed02-ec11-0620-96035132bc28_4032c4ee-e5fe-839f-5c33-0aea6b5e0031
 	align-items:flex-start;
 	justify-content:flex-start;
 }
+html:not(.designer) [name*="fit-content"]{
+	width: fit-content!important;
+}
 html:not(.designer) #custom-sticky-header  .input-control.select-box.dropdown-box.watermark .styling-font{
 	font-size:.85rem;
 	padding:0!important;
