@@ -11,6 +11,16 @@
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
     /* Adjust the path and font format */
 }
+[name="Arabic Lang langBtn"]{
+	display:flex!important;
+	align-items:center!important;
+	border:1px solid var(--borderColor)!important;
+	border-radius:2rem!important;
+	width: fit-content!important;
+	height: unset!important;
+	min-height: unset!important;
+	line-height: unset!important;
+}
 html:not(.designer){
     font-size:14px!important;
 }
