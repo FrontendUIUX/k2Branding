@@ -134,3 +134,48 @@ document.addEventListener("DOMContentLoaded", function () {
     // Append Sidebar
     $('body').append(sidebar);
 });
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Check if the sticky header already exists
+    let stickyHeader = document.getElementById('custom-sticky-header');
+
+    if (!stickyHeader) {
+        // Create the sticky header container
+        stickyHeader = document.createElement('div');
+        stickyHeader.id = 'custom-sticky-header';
+        document.body.prepend(stickyHeader);
+    }
+
+    // Select elements to move
+    let headerCard = document.querySelector('[name^="HeaderCard"]');
+    let tabBoxTabs = document.querySelector('.tab-box-tabs');
+
+    // Move elements inside the sticky header in order
+    if (headerCard) {
+        stickyHeader.appendChild(headerCard);
+    }
+    if (tabBoxTabs) {
+        stickyHeader.appendChild(tabBoxTabs);
+    }
+});
+
+
+if (!window.location.href.includes("login")) {
+
+    sessionStorage.removeItem("loginFailed");
+}
+
+$(function () {
+    if ($('#custom-sticky-header').children().length === 2) {
+      $('body').addClass('doubleTop');
+    }
+  });
+
