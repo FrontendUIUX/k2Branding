@@ -22,7 +22,7 @@ html:not(.designer)[dir="ltr"] .Grid-Layout>.editor-cell[name="Arabic Lang langB
 	line-height: unset!important;
 	padding: 0.1rem 2.2rem;
 }
-html:not(.designer)[dir="rtl"] .Grid-Layout>.editor-cell[name="En Lang langBtn"]{
+html:not(.designer)[dir="rtl"] .Grid-Layout>.editor-cell[name="English Lang langBtn"]{
 	display:flex!important;
 	align-items:center!important;
 	border:1px solid var(--borderColor)!important;
@@ -33,7 +33,7 @@ html:not(.designer)[dir="rtl"] .Grid-Layout>.editor-cell[name="En Lang langBtn"]
 	line-height: unset!important;
 	padding: 0.1rem 2.2rem;
 }
-html:not(.designer)[dir="ltr"] .Grid-Layout>.editor-cell[name="En Lang langBtn"]{
+html:not(.designer) .Grid-Layout>.editor-cell[name="English Lang langBtn"]{
 	display:none!important;
 }
 [name="ar ToolBar Button"]{
