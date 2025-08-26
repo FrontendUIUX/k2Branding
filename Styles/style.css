@@ -398,6 +398,7 @@ html:not(.designer) [name*="s_link"] {}
 	background-size: cover;
 	background-position: bottom;
 	background-color: white;
+	background-repeat: no-repeat;
 }
 .sidebar .sidebar-link{
 	display:flex;
