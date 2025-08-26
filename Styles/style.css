@@ -20,6 +20,7 @@
 .tab-box-body {
 	background-color:transparent!important;
 }
+
 html:not(.designer)[dir="ltr"] .Grid-Layout>.editor-cell[name="Arabic Lang langBtn"]{
 	display:flex!important;
 	align-items:center!important;
