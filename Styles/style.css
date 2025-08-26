@@ -356,6 +356,24 @@ html:not(.designer) [name*="s_textarea"] {
     width: 100%;
 	min-height: 3rem;
 }
+html:not(.designer) [name*="OBB_dropdown"] .select-box .input-control-m-c,
+html:not(.designer) [name*="OBB_dropdown"] .select-box  .input-control-buttons,
+html:not(.designer) .select-box[name*="OBB_calendar"] .input-control-m-c,
+html:not(.designer) .select-box[name*="OBB_calendar"]  .input-control-buttons,
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-buttons,
+.searchDdl .select-box .input-control-m-c,
+.searchDdl .select-box .input-control-buttons{
+    border:none!important;
+}
+html:not(.designer) .select-box[name*="OBB_calendar"] *,
+[name*="OBB_textbox"],[name*="OBB_textarea"] ,textarea,
+.input-control-watermark,
+[name*="OBB_dropdown"] *{
+	font-family:var(--regularFont);
+	font-size:1rem!important;
+	
+}
 /* test*/
 html:not(.designer) [name*="s_attachment"] {}
 
