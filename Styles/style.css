@@ -609,6 +609,35 @@ html:not(.designer) .grid-body{
 	border-radius: .7rem;
 }
 /* TABLE BRANDING END */
+/* DASHBOARD START */
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
+    height: 12rem;
+    width: 21rem;
+    margin: 1rem;
+    box-shadow: none;
+    background-color: white;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center;
+    transition: all .3s ease-in-out;
+    padding: 0;
+    margin: 0 auto !important;
+}
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget .picture-control-inline {
+    width: 5rem !important;
+    margin-bottom: .7rem;
+    outline: none;
+    border: none;
+}
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {
+    font-size: 1rem;
+    text-wrap: auto;
+    text-align: center;
+}
+/* DASHBOARD END */
 @media(min-width:992px){
 	.sidebar {
 	transform:translateX(0%)!important;
