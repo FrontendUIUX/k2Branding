@@ -305,6 +305,12 @@ html:not(.designer) [name*="s_link"] {}
 height:1.4rem;
 width:1.4rem;
 }
+html[dir="ltr"] .sidebar{
+	border-right: 1px solid #ECECEC;
+}
+html[dir="rtl"] .sidebar{
+	border-left: 1px solid #ECECEC;
+}
 html[dir="ltr"] .sidebar .sidebar-link span{
 	font-size:1rem;
 	text-decoration:none;
