@@ -22,14 +22,14 @@ html:not(.designer) body{
     width: calc(100% - 17rem);
     position: relative;
 }
-html:not(.designer) [name*="s_header"]{
+html:not(.designer) #custom-sticky-header [name*="s_header"]{
 	background-color:#FFFFFF;
 	position: fixed;
 	top: 0;
-	left:0;
-	width:100%;
+	left:16.8rem;
+	width:calc(100% - 18.8rem);
 	z-index: 2;
-	/* height: 6rem; */
+	height: 6rem;
 	padding: 0 1rem!important;
 	display: flex!important;
 	align-items: center!important;
