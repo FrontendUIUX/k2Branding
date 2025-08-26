@@ -43,7 +43,7 @@ html:not(.designer) body{
     width: calc(100% - 17rem);
     position: relative;
 }
-html:not(.designer) #custom-sticky-header [name*="s_header"]{
+html:not(.designer) #custom-sticky-header{
 	background-color:#FFFFFF;
 	position: fixed;
 	top: 0;
