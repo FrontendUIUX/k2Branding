@@ -11,6 +11,9 @@
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
     /* Adjust the path and font format */
 }
+.theme-entry .form{
+	background-color:transparent;
+}
 html:not(.designer)[dir="ltr"] .Grid-Layout>.editor-cell[name="Arabic Lang langBtn"]{
 	display:flex!important;
 	align-items:center!important;
@@ -115,12 +118,13 @@ html:not(.designer){
     font-size:14px!important;
 }
 html:not(.designer) body{
-    padding: 0rem 1rem;
+    padding: 1rem;
     font-family: var(--regularFont);
     background-color: #F5F5F5;
     left: 17rem;
     width: calc(100% - 17rem);
     position: relative;
+    margin-top: 8rem;
 }
 html:not(.designer) #custom-sticky-header{
 	background-color:#FFFFFF;
@@ -340,7 +344,7 @@ html:not(.designer) [name*="s_radioGroup"] {}
 html:not(.designer) [name*="s_asterik"] {}
 
 html:not(.designer) [name*="s_collapse"] {
-    border:1px solid #E8E8E8;
+    border:1px solid #E8E8E8!important;
 	border-radius:1rem!important;
 	overflow:hidden;
 	margin-bottom: 1rem;
