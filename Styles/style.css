@@ -136,6 +136,9 @@ html:not(.designer) body::before{
 	width:100%;
 	z-index: 99;
 }
+.theme-entry a.toolbar-button {
+	padding:0!important;
+}
 html:not(.designer) #custom-sticky-header{
 	background-color:#FFFFFF;
 	position: fixed;
@@ -307,7 +310,10 @@ html:not(.designer) [name*="d-inline"] {
 }
 
 /* DISPLAYS END */
-html:not(.designer) [name*="s_textbox"] {
+html:not(.designer) [name*="s_textbox"],
+html:not(.designer) .filterTxt .input-control-m-c,
+html:not(.designer) .filterTxt input,
+html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup-box{
     border: 1px solid var(--borderColor) !important;
     font-size: 1rem !important;
     border-radius: .5rem !important;
@@ -350,7 +356,7 @@ html:not(.designer) [name*="s_textarea"] {
     width: 100%;
 	min-height: 3rem;
 }
-
+/* test*/
 html:not(.designer) [name*="s_attachment"] {}
 
 html:not(.designer) [name*="s_button"] {}
@@ -361,9 +367,10 @@ html:not(.designer) [name*="s_asterik"] {}
 
 html:not(.designer) [name*="s_collapse"] {
     border:1px solid #E8E8E8!important;
-	border-radius:1rem!important;
-	overflow:hidden;
-	margin-bottom: 1rem;
+    border-radius:1rem!important;
+    overflow:hidden;
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 html:not(.designer) [name*="s_collapse"] .panel-header .panel-header-c .panel-header-wrapper,
 html:not(.designer) [name*="s_collapse"] .grid-header  .grid-header-wrapper{
