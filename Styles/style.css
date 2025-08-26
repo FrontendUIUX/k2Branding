@@ -610,6 +610,9 @@ html:not(.designer) .grid-body{
 }
 /* TABLE BRANDING END */
 /* DASHBOARD START */
+[name="LCTS.EservicesHub.Form Area Item"]{
+	background-color: transparent!important;
+}
 .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
     height: 12rem;
     width: 21rem;
