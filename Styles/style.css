@@ -16,8 +16,9 @@
 	align-items:center;
 	justify-content:flex-end;
 }
-.theme-entry .form{
-	background-color:transparent;
+.theme-entry .form,
+.tab-box-body {
+	background-color:transparent!important;
 }
 html:not(.designer)[dir="ltr"] .Grid-Layout>.editor-cell[name="Arabic Lang langBtn"]{
 	display:flex!important;
