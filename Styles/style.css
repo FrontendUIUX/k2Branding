@@ -124,13 +124,23 @@ html:not(.designer) body{
     left: 17rem;
     width: calc(100% - 17rem);
     position: relative;
-    margin-top: 8rem;
+    padding-top: 9rem;
+}
+html:not(.designer) body::before{
+	content:"";
+	position: fixed;
+	top:0;
+	left:0;
+	background-color:var(--main-color);
+	height: 0.6rem;
+	width:100%;
+	z-index: 99;
 }
 html:not(.designer) #custom-sticky-header{
 	background-color:#FFFFFF;
 	position: fixed;
 	top: 0;
-	left:16.8rem;
+	left:16.97rem;
 	width:calc(100% - 18.8rem);
 	z-index: 2;
 	height: 6rem;
@@ -140,6 +150,12 @@ html:not(.designer) #custom-sticky-header{
 	justify-content: space-between;
 	padding-top:1rem!important;
 	padding-bottom:1rem!important;
+}
+html:not(.designer)[dir="ltr"] #custom-sticky-header{
+	border-left:1px solid var(--borderColor);
+}
+html:not(.designer)[dir="rtl"] #custom-sticky-header{
+	border-right:1px solid var(--borderColor);
 }
 /* MARGINS START */
 html:not(.designer) [name*="m-t1"] {
@@ -399,6 +415,12 @@ html:not(.designer) [name*="s_link"] {}
 	background-position: bottom;
 	background-color: white;
 	background-repeat: no-repeat;
+}
+html[dir="ltr"] .sidebar{
+	border-right:1px solid var(--borderColor);
+}
+html[dir="rtl"] .sidebar{
+	border-left:1px solid var(--borderColor);
 }
 .sidebar .sidebar-link{
 	display:flex;
