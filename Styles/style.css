@@ -377,7 +377,18 @@ html:not(.designer) .select-box[name*="OBB_calendar"] *,
 html:not(.designer) .input-control.text-input .input-control-m-c{
 	border:none!important;
 }
-
+.quickSearch.filter .toolbar-button.toolbar-button-inline.style-aware.refresh{
+	position:absolute;
+	right:1.5rem;
+	top: 0.4rem;
+	height: 3rem;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+.quickSearch.filter{
+	position:relative;
+}
 html:not(.designer) [name*="s_attachment"] {}
 
 html:not(.designer) [name*="s_button"] {}
