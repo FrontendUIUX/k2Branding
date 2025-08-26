@@ -435,6 +435,7 @@ html:not(.designer) [name*="s_collapse"] {
     overflow:hidden;
     margin-bottom: 1rem;
     padding: 1rem;
+	width: calc(100% - 2rem)!important;
 }
 html:not(.designer) [name*="s_collapse"] .panel-header .panel-header-c .panel-header-wrapper,
 html:not(.designer) [name*="s_collapse"] .grid-header  .grid-header-wrapper{
