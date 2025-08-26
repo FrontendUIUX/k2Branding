@@ -11,6 +11,11 @@
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
     /* Adjust the path and font format */
 }
+#custom-sticky-header .SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout.root-table{
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+}
 .theme-entry .form{
 	background-color:transparent;
 }
