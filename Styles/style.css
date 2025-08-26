@@ -98,7 +98,7 @@ html:not(.designer) #custom-sticky-header  .input-control.select-box.dropdown-bo
 html:not(.designer) [name="profileContainer"]{
 	border:1px solid var(--borderColor);
 	border-radius:2rem;
-	padding:.1rem 1rem;
+	padding: 0.6rem 1rem 0rem;
 	width:fit-content;
 }
 html:not(.designer) .Grid-Layout>.editor-cell[name="English Lang langBtn"]{
@@ -310,6 +310,30 @@ html:not(.designer) [name*="d-inline"] {
 }
 
 /* DISPLAYS END */
+span#\39 cd5008a-6bdf-0895-3969-eede9870ea87 {
+    padding: 0!important;
+    height: 0.9rem!important;
+    line-height: 1.1rem;
+}
+
+#custom-sticky-header .styling-outer-wrapper,
+#custom-sticky-header div#\31 4756d3d-ed02-ec11-0620-96035132bc28_15ccbd69-ae2c-b0ab-0492-fa1ebd03113e,
+#custom-sticky-header [name="CustomerDp "],
+#custom-sticky-header .input-control.select-box .input-control-m{
+    height: unset!important;
+    line-height: unset!important;
+    min-height: unset!important;
+}
+#custom-sticky-header .styling-outer-wrapper,
+#custom-sticky-header div#\31 4756d3d-ed02-ec11-0620-96035132bc28_15ccbd69-ae2c-b0ab-0492-fa1ebd03113e,
+#custom-sticky-header .input-control.select-box .input-control-m{
+    height: 1rem!important;
+}
+div#\31 4756d3d-ed02-ec11-0620-96035132bc28_15ccbd69-ae2c-b0ab-0492-fa1ebd03113e {}
+
+.input-control-body.styling-left.styling-inner-wrapper {
+    height: 0.6rem;
+}
 html:not(.designer) [name*="s_textbox"],
 html:not(.designer) .filterTxt .input-control-m-c,
 html:not(.designer) .filterTxt input,
