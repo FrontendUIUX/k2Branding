@@ -26,6 +26,7 @@ html:not(.designer) [name*="sectionTitle"]{
 	position:relative;
 	overflow:visible;
 	font-size:2rem;
+	font-weight: 600;
 }
 html:not(.designer) [name*=s_collapse] .panel-body .SourceCode-Forms-Controls-Web-Table.Grid-Layout span{
 	overflow:visible!important;
