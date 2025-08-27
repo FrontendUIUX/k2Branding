@@ -26,7 +26,6 @@ html:not(.designer) [name*="sectionTitle"]{
 	position:relative;
 	overflow:visible;
 	font-size:2rem;
-	font-weight: 600;
 }
 html:not(.designer) [name*=s_collapse] .panel-body .SourceCode-Forms-Controls-Web-Table.Grid-Layout span{
 	overflow:visible!important;
@@ -181,14 +180,57 @@ html:not(.designer) #custom-sticky-header{
 	height: 6rem;
 	padding: 0 1rem!important;
 	display: flex!important;
+	flex-direction: column;
 	align-items: center!important;
 	justify-content: space-between;
 	padding-top:1rem!important;
 	padding-bottom:1rem!important;
 }
+html:not(.designer) .theme-entry ul.tab-box-tabs {
+    border: none;
+    border-top: 1px solid #ECECEC;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 5px;
+    height: unset;
+    padding: 0;
+    padding: 0 1rem 0;
+    width: 100%;
+    background-color: white;
+}
+html:not(.designer) .theme-entry ul.tab-box-tabs li{
+	border:none!important;
+}
+html:not(.designer) .theme-entry ul.tab-box-tabs li a .tab-wrapper{
+	color:black;
+	border:none!important;
+	position:relative;
+}
+html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab.selected span {
+    color: black;
+	font-weight:600;
+}
+html:not(.designer) .theme-entry ul.tab-box-tabs li a{
+	position:relative;
+	padding: 1.4rem 0;
+}
+html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab.selected::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: red;
+    bottom: 0rem;
+    left: 0;
+}
+html:not(.designer) .theme-entry a.tab>span>span {
+    font-size: 1rem;
+    color: #828282;
+}
 html:not(.designer)[dir="ltr"] #custom-sticky-header{
 	border-left:1px solid var(--borderColor);
-	border-bottom:1px solid var(--borderColor);
+	border-bottom: 1px solid var(--borderColor);
 }
 html:not(.designer)[dir="rtl"] #custom-sticky-header{
 	border-right:1px solid var(--borderColor);
