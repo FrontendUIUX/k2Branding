@@ -11,13 +11,13 @@
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
     /* Adjust the path and font format */
 }
-#custom-sticky-header .SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout.root-table{
+html:not(.designer) #custom-sticky-header .SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout.root-table{
 	display:flex;
 	align-items:center;
 	justify-content:flex-end;
 }
-.theme-entry .form,
-.tab-box-body {
+html:not(.designer) .theme-entry .form,
+html:not(.designer) .tab-box-body {
 	background-color:transparent!important;
 }
 html:not(.designer) [name*="sectionTitle"]{
@@ -29,6 +29,9 @@ html:not(.designer) [name*="sectionTitle"]{
 }
 html:not(.designer) [name*=s_collapse] .panel-body .SourceCode-Forms-Controls-Web-Table.Grid-Layout span{
 	overflow:visible!important;
+}
+html:not(.designer) .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	border:none!important;
 }
 html:not(.designer) [name*="sectionTitle"]::before{
 	content:"";
@@ -86,15 +89,15 @@ span#\37 9297435-28f8-a312-16cd-abc9b001de55{
     width: fit-content;
     padding: 0;
 }
-html[dir="ltr"] span#\37 9297435-28f8-a312-16cd-abc9b001de55{
+html[dir="ltr"]:not(.designer) span#\37 9297435-28f8-a312-16cd-abc9b001de55{
     margin-right:1rem;
 }
-html[dir="rtl"] span#\37 9297435-28f8-a312-16cd-abc9b001de55{
+html[dir="rtl"]:not(.designer) span#\37 9297435-28f8-a312-16cd-abc9b001de55{
     margin-left:1rem;
 }
-div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table{
+html:not(.designer) div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table{
     display:flex;
-    align-item:center!important;
+    align-items:center!important;
     justify-content:flex-end;
 }
 html:not(.designer) [name="ProfileTable"]{
