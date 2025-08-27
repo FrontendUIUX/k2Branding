@@ -610,6 +610,15 @@ html:not(.designer) .quickSearch.filter .toolbar-button.toolbar-button-inline.st
 html:not(.designer) .quickSearch.filter{
 	position:relative;
 }
+html:not(.designer) .SourceCode-Forms-Controls-Web-Button{
+	border-radius:.5rem;
+	border:none;
+	transition:var(--transition);
+	font-family:var(--regularFont);
+	background-color:var(--main-color);
+	padding:.4rem 1rem!important;
+	color:white;
+}
 /* TABLE BRANDING START */
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
