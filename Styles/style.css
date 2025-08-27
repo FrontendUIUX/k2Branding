@@ -188,6 +188,7 @@ html:not(.designer) #custom-sticky-header{
 }
 html:not(.designer)[dir="ltr"] #custom-sticky-header{
 	border-left:1px solid var(--borderColor);
+	border-bottom:1px solid var(--borderColor);
 }
 html:not(.designer)[dir="rtl"] #custom-sticky-header{
 	border-right:1px solid var(--borderColor);
